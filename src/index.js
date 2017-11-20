@@ -1,5 +1,5 @@
 import React from 'react';
 
-import App from './components/App';
+import LRN from './components/LRN';
 
-export default App;
+export default LRN;

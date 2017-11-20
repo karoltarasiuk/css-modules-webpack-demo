@@ -1,0 +1,11 @@
+.hashed {
+    color: red;
+}
+
+:global .nonHashed {
+    color: blue;
+}
+
+.hashed :global .purple {
+    color: purple;
+}

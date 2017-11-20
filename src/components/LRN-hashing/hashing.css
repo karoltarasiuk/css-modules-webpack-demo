@@ -1,0 +1,15 @@
+:global .bold {
+    font-weight: bold;
+}
+
+:global .blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.red :global .bold {
+    color: purple;
+}
