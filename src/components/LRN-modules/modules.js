@@ -2,7 +2,8 @@ import styles from './modules.css';
 
 import React, { Component } from 'react';
 import ModuleA from './modules/ModuleA';
-// import ModuleB from './modules/ModuleB';
+import ModuleB from './modules/ModuleB';
+import ModuleC from './modules/ModuleC';
 
 export default class Modules extends Component {
 
@@ -10,7 +11,8 @@ export default class Modules extends Component {
     return (
       <div>
         <ModuleA />
-        {/* <ModuleB /> */}
+        <ModuleB />
+        <ModuleC />
       </div>
     );
   }

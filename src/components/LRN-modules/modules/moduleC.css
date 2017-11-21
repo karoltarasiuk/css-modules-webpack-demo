@@ -1,0 +1,7 @@
+.moduleC { border: 1px solid black; }
+
+.p { color: green; }
+.p em { font-weight: bold; }
+
+.div .paragraph { color: blue; }
+.div .paragraph .em { font-weight: bold; }

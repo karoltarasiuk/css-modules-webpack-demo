@@ -6,7 +6,7 @@ import Button from 'shared/Button/Button';
 export default class ModuleA extends Component {
     render () {
         return (
-            <div>
+            <div className={styles.moduleA}>
                 <p>Module A</p>
                 <Button>Some text</Button>
             </div>
