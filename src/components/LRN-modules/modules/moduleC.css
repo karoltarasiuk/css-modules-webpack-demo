@@ -1,7 +1,5 @@
 .moduleC { border: 1px solid black; }
+.moduleC button { color: green; }
 
 .p { color: green; }
-.p em { font-weight: bold; }
-
-.div .paragraph { color: blue; }
-.div .paragraph .em { font-weight: bold; }
+.p span { font-weight: bold; }

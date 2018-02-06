@@ -13,3 +13,11 @@
 .red :global .bold {
     color: purple;
 }
+
+.bold {
+    color: green;
+}
+
+.red .bold {
+    color: yellow;
+}

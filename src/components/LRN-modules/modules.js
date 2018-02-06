@@ -9,7 +9,7 @@ export default class Modules extends Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.modules}>
         <ModuleA />
         <ModuleB />
         <ModuleC />

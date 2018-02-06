@@ -5,19 +5,12 @@ import Button from 'shared/Button/Button';
 
 export default class ModuleC extends Component {
     render () {
-        console.log(styles);
         return (
             <div className={styles.moduleC}>
                 <p className={styles.p}>
                     Module C <span>bold</span>
                 </p>
-                <Button>Some other text</Button>
-                <div className={styles.div}>
-                    <p className={styles.paragraph}>Some paragraph</p>
-                    <p className={styles.paragraph}>
-                        Some other <em className={styles.em}>paragraph</em>
-                    </p>
-                </div>
+                <Button>Some Module C text</Button>
             </div>
         );
     }

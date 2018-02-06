@@ -13,6 +13,9 @@ export default class Hashing extends Component {
         <p className='blue'>
             blue <span className='bold'>bold</span>
         </p>
+        <p className={styles.red}>
+            blue <span className={styles.bold}>bold</span>
+        </p>
       </div>
     );
   }
